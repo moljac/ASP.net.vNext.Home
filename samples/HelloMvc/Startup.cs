@@ -16,6 +16,7 @@ namespace KWebStartup
             });
 
             app.UseMvc();
+            app.UseStaticFiles();
 
             app.UseWelcomePage();
         }       
